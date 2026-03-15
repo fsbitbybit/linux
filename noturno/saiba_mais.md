@@ -174,9 +174,15 @@ Sim, é perfeitamente possível utilizar o Linux exclusivamente pelo terminal (C
 
 - Linux é mais difícil ou só dá mais controle ao usuário?
 
+O Linux oferece muito mais controle e customização ao usuário, mas isso vem com o preço de uma curva de aprendizado mais íngreme.
+
 - Como Linux é seguro?
 
+Por ser um sistema de código aberto, o Linux tem seu código constantemente revisado por muitos desenvolvedores. Isso permite que falhas de segurança sejam rapidamente identificadas e corrigidas, tornando-o mais seguro do que o Windows, por exemplo.
+
 - Qual é a diferença entre software livre e open-source?
+
+Software livre é baseado na ética e na filosofia das quatro liberdades: executar o programa livremente, estudar e modificar seu código-fonte, redistribuir o software e distribuir versões modificadas. Para ser considerado livre, um software deve ser de código aberto (open source), garantindo que essas liberdades sejam efetivamente possíveis.
 
 ## Dual Boot
 

@@ -301,6 +301,136 @@ Dá. Você pode digitar o nome do programa no terminal e ele abrirá a interface
 
 Não. O terminal é a interface textual, o prompt é a parte que indica que o sistema está esperando você digitar algo.
 
+- O que é shell?
+
 - Terminal e shell são a mesma coisa?
 
 Também não. O terminal é onde você vê e digita. O shell é o programa que interpreta o comando.
+
+- O terminal é uma "linguagem de programação"?
+
+Não exatamente. Você digita comandos, não "programa" necessariamente. Mas shells também podem ser usados para criar scripts, que já entram em algo próximo de programação.
+
+- Tudo no Linux precisa ser feito pelo terminal?
+
+- O terminal é mais difícil ou só menos familiar?
+
+- O que acontece quando eu digito um comando?
+
+- Como o sistema sabe o que significa `ls` ou `cd`?
+
+- Onde os comandos ficam guardados?
+
+- O terminal fala direto com o kernel?
+
+- Posso quebrar o sistema usando o terminal?
+
+- Por que alguns comandos precisam de `sudo`?
+
+- O que é Bash?
+
+- O terminal do Linux e o CMD do Windows são equivalentes?
+
+- O PowerShell é parecido com o terminal do Linux?
+
+- Como cancelar um comando que está rodando?
+
+- O terminal só serve para programadores?
+
+- Existe diferença entre digitar um comando e executar um programa?
+
+## Filesystem
+
+- O que significa "tudo é arquivo"?
+
+- Filesystem é só um monte de pastas?
+
+- Qual é a diferença entre filesystem e armanezamento?
+
+- O filesystem existe no disco ou no sistema operacional?
+
+- O que significa dizer que tudo começa em `/`?
+
+- Por que Linux não usa `C:` e `D:` como o Windows?
+
+- O que é a raiz do sistema?
+
+- `/` e `/root` são a mesma coisa?
+
+- O que é `/home`?
+
+- Por que cada pasta do Linux parece ter uma função específica?
+
+- Quem decidiu essa organização das pastas?
+
+- O que acontece se eu apagar alguma pasta importante do sistema?
+
+- Um diretório é um arquivo?
+
+- Dispositivos também aparecem como arquivos?
+
+- Qual é a diferença entre arquivo, pasta, diretório e partição?
+
+- Um disco e um filesystem são a mesma coisa?
+
+- Posso ter vários filesystems no mesmo computador?
+
+- O que acontece quando eu salvo um arquivo?
+
+- O arquivo fica "dentro" da pasta mesmo?
+
+- Como o sistema sabe onde o arquivo está no disco?
+
+- O que acontece quando eu deleto um arquivo?
+
+- Arquivo apagado some na hora?
+
+- O filesystem é igual em todas as distribuições Linux?
+
+- O Windows também tem filesystem?
+
+- O Linux reconhece pen-drive e HD externo dentro desse mesmo sistema de pastas?
+
+- O que significa montar um disco dentro do sistema?
+
+- O que fica em `/etc`?
+
+- O que fica em `/var`?
+
+- O que fica em `/usr`?
+
+- O que fica em `/bin`?
+
+## Caminhos Absolutos e Relativos
+
+- O que é um caminho?
+
+- Por que preciso aprender isso?
+
+- Qual é a diferença entre caminho absoluto e relativo?
+
+- Como sei se um caminho é absoluto ou relativo?
+
+- O que é o diretório atual?
+
+- Como descubro em que diretório estou?
+
+- O que significam `.` e `..`?
+
+- O que acontece se eu usar um caminho relativo no lugar errado?
+
+- Quando é melhor usar um caminho absoluto?
+
+- Quando é melhor usar um caminho relativo?
+
+- Um comando pode aceitar os dois tipos de caminho?
+
+- Caminho é a mesma coisa que endereço de arquivo?
+
+- Um atalho e um caminho são a mesma coisa?
+
+- Por que alguns caminhos só funcionam com permissão de administrador?
+
+- Caminho relativo serve para economizar escrita ou tem outra utilidade?
+
+- Posso misturar `..` com nomes de pastas no mesmo caminho?

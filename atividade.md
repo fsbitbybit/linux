@@ -10,11 +10,11 @@
 Crie uma pasta chamada "oficina-linux" na sua pasta pessoal, com três subpastas:
 - "anotações"
 - "scripts"
-- "miau"
+- "testes"
 
-Entre na pasta "oficina-linux"
-liste o conteúdo dela
-descubra em que diretório você está
+1. Entre na pasta "oficina-linux"
+2. Liste o conteúdo dela
+3. Descubra em que diretório você está
 
 Comandos:
 - mkdir
@@ -35,9 +35,63 @@ Dentro da pasta `anotações`, crie os arquivos:
 - `duvidas.txt`
 - `comandos.txt`
 
-Escreva uma frase dentro de aula.txt
-Mostre o conteúdo do arquivo no terminal
-Copie aula.txtx para a pasta x
-renomeia a copia para copia aula 1
+1. Escreva uma frase dentro de aula.txt
+2. Mostre o conteúdo do arquivo no terminal
+3. Copie `aula.txt` para a pasta `testes`
+4. renomeia a copia para copia aula 1
 
-echo cat cp mv
+Comandos:
+- echo
+- cat
+- cp
+- mv
+
+Responda:
+- Qual é a diferença entre `touch`, `echo`, `cp`, e `mv`?
+- O que `>` faz?
+- O que aconteceu com o arquivo copiado?
+
+## Tarefa III
+
+Acesse a pasta `scripts` e:
+1. Liste o conteúdo da pasta `anotações` usando caminho relativo
+2. Mostre o conteúdo de `aula1.txt` usando caminho relativo
+3. Mostre o mesmo conteúdo usando caminho absoluto
+
+Comandos:
+- cd
+- ls
+- cat
+
+Responda:
+- Qual é a diferença entre caminho absoluto e relativo?
+- O que `..` significa?
+- Por que `/home/...` e `home/...` não são a mesma coisa?
+
+## Tarefa IV
+
+Crie um arquivo chamado `saudacao.sh` dentro da pasta `scripts`.
+
+Conteúdo do script:
+```bash
+#!/bin/bash
+echo "olá!"
+echo "usuário atual: $(whoami)"
+echo "diretório atual: $(pwd)"
+echo "data e hora: $(date)"
+```
+
+1. Salve o arquivo
+2. Tente executá-lo
+3. Observe o que acontece
+4. Dê permissão de execução
+5. Execute novamente
+
+Comandos:
+- chmod +x
+
+Responda:
+- O que é um script?
+- Para que serve a linha `#!/bin/bash`?
+- Por que o script não executa sem permissão adequada?
+- O que `chmod +x` faz?
